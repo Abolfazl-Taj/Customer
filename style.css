@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background:  #111;
+}
+.countiner {
+    margin-top: 3rem;
+    border: 5px solid rgba(100, 100, 100 , 0.126);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+  width: 100%;
+  background: rgb(85, 85, 85);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 25px;
+  outline: bisque 1px solid;
+}
+.btn {
+    background: rgb(77, 77, 77);
+    color: #111;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.output {
+    padding: 2rem;
+    border: 1px slateblue solid;
+    margin-top: 2rem;
+ color: rgb(119, 119, 119);
+ font-size: 20px;
+    width: 100%;
+    box-shadow: inset 1px 1px 40px 1px rgb(255, 0, 0 , 0.5) , 
+    1px 1px 40px 1px rgb(255, 0, 0 , 0.5)  ;
+    height: 300px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+.output::-webkit-scrollbar {
+  width: 12px;
+}
+.output::-webkit-scrollbar-track {
+background: transparent;
+}
+.output::-webkit-scrollbar-thumb {
+    backdrop-filter: blur(20px) saturate(200%);
+  background: rgb(219, 219, 219 , 0.126);
+  border-radius: 10px;
+}
