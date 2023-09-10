@@ -15,8 +15,7 @@ btn.addEventListener("click", () => {
             alert("مقدار داده نامعتبر است ")
             input.value = null;
             e.preventDefault()
-          }
-          if(customer[Meghdar] == undefined){
+          } else if(customer[Meghdar] == undefined){
             alert("مقدار داده شده در سیستم ثبت نشده است ")
             input.value = null;
             e.preventDefault()
